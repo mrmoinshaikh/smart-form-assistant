@@ -66,11 +66,12 @@ This behavior is intentional to ensure reliability.
 
 ```bash
 git clone https://github.com/<your-username>/smart-form-assistant.git
-...
+```
 2. Open Chrome and go to:
 
 ```bash
 chrome://extensions
+```
 
 3. Enable Developer mode
 
