@@ -1,0 +1,84 @@
+/* Overlay Styles */
+.auto-form-overlay {
+  position: absolute;
+  z-index: 2147483647;
+  /* Max z-index to stay on top */
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  color: #333;
+  min-width: 200px;
+  max-height: 300px;
+  overflow-y: auto;
+  display: block;
+}
+
+.auto-form-header {
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #666;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+
+.auto-form-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.1s;
+}
+
+.auto-form-item:hover {
+  background: #f0f7ff;
+}
+
+.auto-form-value {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  margin-right: 8px;
+}
+
+.auto-form-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.auto-form-btn {
+  background: transparent;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 12px;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.auto-form-btn:hover {
+  background: #eee;
+  color: #000;
+}
+
+.auto-form-warning {
+  color: #d97706;
+  font-size: 11px;
+  margin-top: 4px;
+  display: block;
+  background: #fffbeb;
+  padding: 4px;
+  border-radius: 4px;
+}
