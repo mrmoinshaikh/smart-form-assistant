@@ -66,7 +66,7 @@ This behavior is intentional to ensure reliability.
 
 ```bash
 git clone https://github.com/<your-username>/smart-form-assistant.git
-
+bash```
 2. Open Chrome and go to:
 
 ```bash
