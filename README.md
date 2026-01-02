@@ -67,3 +67,13 @@ This behavior is intentional to ensure reliability.
 ```bash
 git clone https://github.com/<your-username>/smart-form-assistant.git
 
+2. Open Chrome and go to:
+
+```bash
+chrome://extensions
+
+3. Enable Developer mode
+
+4. Click Load unpacked
+
+5. Select the project folder
