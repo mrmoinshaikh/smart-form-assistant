@@ -78,3 +78,11 @@ chrome://extensions
 4. Click Load unpacked
 
 5. Select the project folder
+
+## Author
+
+Moinuddin Shaikh
+
+## License
+
+MIT License
